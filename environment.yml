@@ -1,0 +1,17 @@
+name: adasketch
+channels:
+- defaults
+dependencies:
+- python
+- ipython
+- numpy
+- scipy
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- jupyter
+- pip
+- pip:
+    - pytest
+    - pytest-cov
