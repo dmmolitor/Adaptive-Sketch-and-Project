@@ -28,5 +28,5 @@ jobs:
       run: |
         conda env create -f environment.yml
         conda activate adasketch
-        sudo apt-get install texlive texlive-latex-extra texlive-fonts-recommended
+        sudo apt-get install texlive-full
         python run_this.py
