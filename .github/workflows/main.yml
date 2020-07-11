@@ -28,5 +28,4 @@ jobs:
       run: |
         conda env create -f environment.yml
         conda activate adasketch
-        tox
-        python -c 'import Adaptive-Sketch-and-Project'
+        python run_this.py
