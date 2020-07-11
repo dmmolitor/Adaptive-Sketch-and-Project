@@ -24,7 +24,7 @@ The figures from [Adaptive Sketch-and-Project Methods for Solving Linear Systems
 python run_this.py
 ```
 
-The figures will be saved in a `Figures` subfolder.
+The figures will be saved in a `figures` subfolder.
 
 If you use this code, please cite:
 
