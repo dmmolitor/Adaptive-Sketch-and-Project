@@ -23,6 +23,8 @@ jobs:
       uses: goanpeca/setup-miniconda@v1.0.2
       with:
         auto-update-conda: true
+    - name: Github Action for LaTeX
+      uses: xu-cheng/latex-action@v2
     - name: Try getting started instructions
       shell: bash -l {0}
       run: |
