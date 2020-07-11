@@ -10,8 +10,10 @@ dependencies:
 - scikit-learn
 - matplotlib
 - seaborn
-- jupyter
 - pip
 - pip:
     - pytest
     - pytest-cov
+    - tox
+    - -e .
+    - pre-commit
