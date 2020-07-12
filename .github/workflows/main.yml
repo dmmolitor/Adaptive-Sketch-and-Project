@@ -15,7 +15,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
 
     steps:
     - uses: actions/checkout@v2
@@ -28,5 +28,5 @@ jobs:
       run: |
         conda env create -f environment.yml
         conda activate adasketch
-        tox
-        python -c 'import Adaptive-Sketch-and-Project'
+        sudo apt-get install texlive-full
+        python run_this.py

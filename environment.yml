@@ -13,7 +13,5 @@ dependencies:
 - pip
 - pip:
     - pytest
-    - pytest-cov
     - tox
-    - -e .
     - pre-commit
